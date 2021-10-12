@@ -1,7 +1,7 @@
 # springbootapp
 
 # create Docker Image
-docker build --tag=springbootapp:latest .
+from project root: docker build --tag=springbootapp:latest .
 
 # run the image
 docker run -p 8000:8000 springbootapp-dev:latest
